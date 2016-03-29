@@ -30,7 +30,6 @@ You should not add any other files to the repo when you are making your changes.
 *Write a function to these specifications:*
 
 ### All work for part two will be done in the files you worked with for part one
-#### Put your 
 
 1. Using the api that we used for the bonus question, write a function that will do the following:
   * Create a button with the text "Get Title"
@@ -38,7 +37,7 @@ You should not add any other files to the repo when you are making your changes.
   * You will need to use a query string named "data" and the value should be "quizData"
 
 2. Using the return data, complete the following:
-	* For this section, only the button should display on page load
+  * For this section, only the button should display on page load (leave everything from part one the way it is, you can add this data and the button/s and anything else related to part two of this quiz either above or below the elements from step one)
   * When the button is clicked, a random string from the return data from the request should display prominently on the page and the text of the button should say "Change It". Only one string at a time should display on the page
   * You will then need to add a new button that says "Keep It" (this button should not be in the dom when the page loads)
   * If I click on the "Keep It" button, you should set a cookie using js, so that when I refresh the page I can see what the last value was, and the original button should display, allowing me to complete the operation again, and set a new cookie if I want to keep the new value and so on
