@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"
+		<title>Quiz 2</title>
+	</head>
+	<body>
+
+		<div class="content">
+			<h1>Hi, Welcome to the second quiz!</h1>
+			<p>Make sure the containers below respond to the events or functions implemented with quiz2.js</p>
+			<div class="evens">
+				<div class="click">
+					<span>click event</span>
+				</div>
+					<span>mouse over event</span>
+					<p class="mouseover">Who's the richest person you know? (mouse over to find out)</p>
+				<div>
+					<span>submit event</span>
+					<!-- The form not having an action or method is not a bug in this case -->
+
+						<form class="submit">
+							<input type="text" name="form" placeholder="Enter Some Text"></input>
+							<input type="submit" value="submit"></input>
+						</form>
+				</div>
+				<div>
+					<span class="timeout">timeout function</span>
+				</div>
+			</div>
+
+			<form class="ajax">
+				<label for="form">AJAX, yo!</label>
+				<input type="button" id="titlebutton" value = "Get Title"></input>
+			</form>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="quiz2.js"></script>
+	</body>
+</html>
